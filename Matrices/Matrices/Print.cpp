@@ -18,3 +18,17 @@ void Print::PrintMatrix(const std::vector<std::vector<float>>& matrix) {
 	}
 }
 
+
+void Print::PrintMatrixInt(const std::vector<std::vector<int>>& matrix) {
+
+	cout << "-----------" << endl;
+	for (int i = 0; i < matrix.size(); i++) {
+		cout << "| ";
+		for (int j = 0; j < matrix[i].size(); j++) {
+			cout << matrix[i][j] << " | ";
+		}
+		cout << endl;
+		cout << "-----------" << endl;
+
+	}
+}

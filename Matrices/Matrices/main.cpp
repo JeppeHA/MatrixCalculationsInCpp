@@ -4,6 +4,7 @@
 #include <vector>
 
 #include "Print.h"
+#include "Matrix.h"
 
 using namespace std;
 
@@ -21,22 +22,14 @@ vector<vector<int>> matrixB = {
 };
 
 
-void PopulateMatrix(vector<vector<int>>& matrix, int rows, int cols) {
-	matrix.resize(rows);
-	for (int i = 0; i < rows; i++) {
-		matrix[i].resize(cols);
-		for (int j = 0; j < cols; j++) {
-			matrix[i][j] = rand() % 10; 
-		}
-	}
-}
+
 
 vector<vector<int>> MultiplyMatrices(vector<vector<int>> matrixA, vector<vector<int>> matrixB) {
 	vector<vector<int>> resultMatrix(rows, vector<int>(cols, 0));
 
 	for (int i = 0; i < resultMatrix.size(); i++) {
 		for (int j = 0; j < resultMatrix[i].size(); j++) {
-			for (int k = 0; k < 1000; k++) {
+			for (int k = 0; k < resultMatrix.size(); k++) {
 				resultMatrix[i][j] += matrixA[i][k] * matrixB[k][j];
 			}
 		}
@@ -74,17 +67,21 @@ vector<float> CalculateVariabels(vector<vector<float>> matrix, float c1, float c
 	return variables;
 }
 
+void increment(int num) {
+	num += 1;
+}
+
 
 int main() {
 
 	Print printer;
+	Matrix matrix;
 	// Columns in the first matrix must be equal to rows in the second matrix 
 	// Else you cannot multiply them
 
 	// The resulting matrix will have the number of rows of the first matrix and the number of columns of the second matrix
 
 	printf("Hello, Matrices!\n");
-
 
 	//cout << "Calculating A x B..." << endl;
 
@@ -120,6 +117,13 @@ int main() {
 
 	cout << "X: " << results[0];
 	cout << "Y: " << results[1];
+
+	vector<vector<int>> testMatrix;
+
+	matrix.PopulateMatrix(testMatrix, 10, 10);
+	printer.PrintMatrixInt(testMatrix);
+
+	
 
 	return 0;
 }

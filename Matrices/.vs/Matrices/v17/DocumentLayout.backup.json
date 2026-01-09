@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{76C5D9B3-2BF4-4E44-BA7E-B42575D68066}|Matrices\\Matrices.vcxproj|C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{76C5D9B3-2BF4-4E44-BA7E-B42575D68066}|Matrices\\Matrices.vcxproj|solutionrelative:Matrices\\Matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76C5D9B3-2BF4-4E44-BA7E-B42575D68066}|Matrices\\Matrices.vcxproj|C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{76C5D9B3-2BF4-4E44-BA7E-B42575D68066}|Matrices\\Matrices.vcxproj|solutionrelative:Matrices\\Matrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{76C5D9B3-2BF4-4E44-BA7E-B42575D68066}|Matrices\\Matrices.vcxproj|C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{76C5D9B3-2BF4-4E44-BA7E-B42575D68066}|Matrices\\Matrices.vcxproj|solutionrelative:Matrices\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,43 +30,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Print.cpp",
-              "DocumentMoniker": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.cpp",
-              "RelativeDocumentMoniker": "Matrices\\Print.cpp",
-              "ToolTip": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.cpp",
-              "RelativeToolTip": "Matrices\\Print.cpp",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Matrix.cpp",
+              "DocumentMoniker": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Matrix.cpp",
+              "RelativeDocumentMoniker": "Matrices\\Matrix.cpp",
+              "ToolTip": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Matrix.cpp",
+              "RelativeToolTip": "Matrices\\Matrix.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-30T13:15:32.284Z"
+              "WhenOpened": "2026-01-09T20:43:48.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Matrix.h",
+              "DocumentMoniker": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Matrix.h",
+              "RelativeDocumentMoniker": "Matrices\\Matrix.h",
+              "ToolTip": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Matrix.h",
+              "RelativeToolTip": "Matrices\\Matrix.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-09T20:40:27.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Print.h",
-              "DocumentMoniker": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.h",
-              "RelativeDocumentMoniker": "Matrices\\Print.h",
-              "ToolTip": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.h",
-              "RelativeToolTip": "Matrices\\Print.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-30T13:15:10.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\main.cpp",
               "RelativeDocumentMoniker": "Matrices\\main.cpp",
               "ToolTip": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\main.cpp",
               "RelativeToolTip": "Matrices\\main.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-28T23:58:29.965Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Print.cpp",
+              "DocumentMoniker": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.cpp",
+              "RelativeDocumentMoniker": "Matrices\\Print.cpp",
+              "ToolTip": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.cpp",
+              "RelativeToolTip": "Matrices\\Print.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-30T13:15:32.284Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Print.h",
+              "DocumentMoniker": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.h",
+              "RelativeDocumentMoniker": "Matrices\\Print.h",
+              "ToolTip": "C:\\Users\\jeppe\\Github\\MatrixCalculationsInCpp\\Matrices\\Matrices\\Print.h",
+              "RelativeToolTip": "Matrices\\Print.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-30T13:15:10.127Z",
               "EditorCaption": ""
             }
           ]
